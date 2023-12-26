@@ -1,0 +1,13 @@
+{
+  "data": {
+    "id": 10,
+    "name": "mimosa",
+    "year": 2009,
+    "color": "#F0C05A",
+    "pantone_value": "14-0848"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}

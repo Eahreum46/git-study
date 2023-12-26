@@ -1,0 +1,28 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  border: 0;
+}
+
+/* header */
+#gnb {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  border: 1px solid black;
+}
+
+#gnb > ul > li {
+  display: inline;
+}

@@ -1,0 +1,33 @@
+/* .font_big { 
+  font-size: 2em;
+}
+.font_italic {
+  font-style: italic;
+}
+.font_bold {
+  font-weight: 400;
+}
+ 숫자 커질수록 두꺼운 폰트 */
+
+.button {
+  width: 150px;
+  height: 70px;
+  background-color: orange;
+  border: 10px solid #fff;
+  text-align: center;
+  line-height: 70px;
+  box-shadow: 5px 5px 5px #a9a9a9;
+}
+.font_big {
+  font-size: 2em;
+}
+.font_italic {
+  font-style: italic;
+}
+.font_bold {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}

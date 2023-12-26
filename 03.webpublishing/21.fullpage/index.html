@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- jquery :제이쿼리가 최상단이어야 함-->
+    <script defer src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    <!-- fullpage -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.css"
+    />
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.5/jquery.fullpage.js"
+    ></script>
+    <!-- BootStrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+      crossorigin="anonymous"
+    ></script>
+    <!-- customer -->
+    <link rel="stylesheet" href="./style.css" />
+    <script defer src="./script.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="navbar-header">
+        <button
+          type="button"
+          class="navbar-toggle"
+          data-toggle="collaps"
+          data-target=".navbar-collapse"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="https://www.naver.com" class="navbar-brand"
+          ><img src="../imgs_231018/logo.png" alt="logo"
+        /></a>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav" id="topMenu">
+          <li data-menuanchor="1stBook">
+            <a href="#1stBook">맥북 & 아이맥</a>
+          </li>
+          <li data-menuanchor="2ndBook">
+            <a href="#2ndBook">웹사이트 기획</a>
+          </li>
+          <li data-menuanchor="3rdBook">
+            <a href="#3rdBook">R 데이터 분석</a>
+          </li>
+          <li data-menuanchor="videolist">
+            <a href="#videolist">동영상 목록</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="fullpage">
+      <div id="book1" class="book-container section" data-anchor="1stBook">
+        <div class="container">
+          <h1>맥북 & 아이맥 - 맥OS 하이시에라 판</h1>
+          <div class="row">
+            <div class="colmd-6 col-sm-6">
+              <img src="../imgs_231018/book1.png" alt="book1" />
+            </div>
+            <div class="colmd-6 col-sm-6">
+              <ul>
+                <li>저자: EAEN IT</li>
+                <li>발행일: 2023-10-18</li>
+                <li>페이지: 256p</li>
+                <li>가격: 33,000원</li>
+              </ul>
+            </div>
+          </div>
+          <div class="book-desc">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+              iure error quasi veritatis amet eaque dolorem commodi accusantium?
+              Accusantium minus tenetur aliquid voluptatem, inventore deleniti
+              soluta quibusdam et minima dolore?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="book2" class="book-container section" data-anchor="2ndBook">
+        <div class="container">
+          <h1>웹 사이트 기획 입문</h1>
+          <div class="row">
+            <div class="colmd-6 col-sm-6">
+              <img src="../imgs_231018/book2.png" alt="book2" />
+            </div>
+            <div class="colmd-6 col-sm-6">
+              <ul>
+                <li>저자: EAEN IT</li>
+                <li>발행일: 2023-10-18</li>
+                <li>페이지: 256p</li>
+                <li>가격: 33,000원</li>
+              </ul>
+            </div>
+          </div>
+          <div class="book-desc">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+              iure error quasi veritatis amet eaque dolorem commodi accusantium?
+              Accusantium minus tenetur aliquid voluptatem, inventore deleniti
+              soluta quibusdam et minima dolore?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="book3" class="book-container section" data-anchor="3rdBook">
+        <div class="container">
+          <h1>쉽게 배우는 R데이터 분석</h1>
+          <div class="row">
+            <div class="colmd-6 col-sm-6">
+              <img src="../imgs_231018/book3.png" alt="book3" />
+            </div>
+            <div class="colmd-6 col-sm-6">
+              <ul>
+                <li>저자: EAEN IT</li>
+                <li>발행일: 2023-10-18</li>
+                <li>페이지: 256p</li>
+                <li>가격: 33,000원</li>
+              </ul>
+            </div>
+          </div>
+          <div class="book-desc">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+              iure error quasi veritatis amet eaque dolorem commodi accusantium?
+              Accusantium minus tenetur aliquid voluptatem, inventore deleniti
+              soluta quibusdam et minima dolore?
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        id="videolist"
+        class="book-container section"
+        data-anchor="videolist"
+      >
+        <div class="container">
+          <h1>동영상 강의</h1>
+          <div class="row slide">
+            <div class="colmd-4 col-sm-4">
+              <img src="../imgs_231018/book4.png" alt="book4" />
+            </div>
+            <div class="colmd-8 col-sm-8">
+              <h3>일러스트레이터CC-동영상강의</h3>
+              <p>강사:David Park</p>
+              <p>저자 직강 무료 동영상 강의입니다.</p>
+              <p>책에 있는 QR코드를 찍어 볼 수 있습니다.</p>
+              <p>재생목록 바로가기: http://www.naver.com</p>
+            </div>
+          </div>
+          <div class="row slide">
+            <div class="colmd-4 col-sm-4">
+              <img src="../imgs_231018/book4.png" alt="book4" />
+            </div>
+            <div class="colmd-8 col-sm-8">
+              <h3>일러스트레이터CC-동영상강의</h3>
+              <p>강사:David Park</p>
+              <p>저자 직강 무료 동영상 강의입니다.</p>
+              <p>책에 있는 QR코드를 찍어 볼 수 있습니다.</p>
+              <p>재생목록 바로가기: http://www.naver.com</p>
+            </div>
+          </div>
+          <div class="row slide">
+            <div class="colmd-4 col-sm-4">
+              <img src="../imgs_231018/book4.png" alt="book4" />
+            </div>
+            <div class="colmd-8 col-sm-8">
+              <h3>일러스트레이터CC-동영상강의</h3>
+              <p>강사:David Park</p>
+              <p>저자 직강 무료 동영상 강의입니다.</p>
+              <p>책에 있는 QR코드를 찍어 볼 수 있습니다.</p>
+              <p>재생목록 바로가기: http://www.naver.com</p>
+            </div>
+          </div>
+          <div class="book-desc">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illum
+              iure error quasi veritatis amet eaque dolorem commodi accusantium?
+              Accusantium minus tenetur aliquid voluptatem, inventore deleniti
+              soluta quibusdam et minima dolore?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

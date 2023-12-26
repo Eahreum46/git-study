@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Nanum Gothic";
+  src: url(./font/NanumGothic.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: transparent;
+  vertical-align: baseline;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Nanum Gothic";
+}

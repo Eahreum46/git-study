@@ -1,0 +1,38 @@
+#graph {
+  width: 610px;
+  border: 3px solid #000;
+}
+
+.bar {
+  width: 10px;
+  height: 50px;
+  background-color: orange;
+  margin: 5px;
+  transition-duration: 3s;
+  /* 트랜지션 듀레이션, 애니메이션을 실행시키는 시간, 로딩 중 효과에 많이 넣음(시작하는 원본값에 넣어줘야됨) */
+}
+
+#graph:hover > .bar {
+  width: 600px;
+}
+
+#graph:hover .bar:nth-child(1) {
+  background-color: red;
+  width: 100px;
+}
+#graph:hover .bar:nth-child(2) {
+  background-color: blue;
+  width: 300px;
+}
+#graph:hover .bar:nth-child(3) {
+  background-color: green;
+  width: 400px;
+}
+#graph:hover .bar:nth-child(4) {
+  background-color: yellow;
+  width: 200px;
+}
+#graph:hover .bar:nth-child(5) {
+  background-color: pink;
+  width: 400px;
+}

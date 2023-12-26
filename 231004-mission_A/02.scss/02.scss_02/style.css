@@ -1,0 +1,19 @@
+.frame {
+  margin: 15px;
+}
+
+button.btn {
+  padding: 10px;
+  text-align: center;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+}
+
+button.confirm {
+  background: yellowgreen;
+}
+
+button.Warning {
+  background: crimson;
+}/*# sourceMappingURL=style.css.map */

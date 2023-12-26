@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#bookInfo {
+  margin-top: 20px;
+}
+#bookInfo li {
+  font-size: 1em;
+  line-height: 3;
+}
+#bookInfo input {
+  width: 450px;
+  padding: 5px;
+}
+form .boxItem {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+form .boxItem input {
+  width: 150px;
+  font-size: 1.2em;
+  padding: 20px;
+  margin-top: 10px;
+}
+
+#bookList {
+  margin-top: 15px;
+  bottom: 1px solid #ccc;
+  width: 500px;
+  position: relative;
+}
+#bookList li {
+  font-size: 1.2em;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <script
+      src="https://kit.fontawesome.com/32df6359d1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="wrap">
+      <header class="header">
+        <div><a href="#"><i class="fa-solid fa-xmark"></i></a></div>
+        <div class="header_text">설정</div>
+      </header>
+      <div class="main_box">
+        <aside>
+          <ul class="side_menu">
+            <li><a href="#">일반</a></li>
+            <li><a href="#">프로필</a></li>
+            <li><a href="#">알림</a></li>
+            <li><a href="#">친구</a></li>
+            <li><a href="#">채팅</a></li>
+            <li><a href="#">화면</a></li> 
+            <li><a href="#">통화</a></li>
+            <li><a href="#">고급</a></li>
+            <li><a href="#">실험실</a></li>
+            <li><a href="#">정보</a></li>
+          </ul>
+        </aside>
+        <section>
+          <div class="content_box">
+            <div class="content_01">
+              <div class="content_title">로그인</div>
+              <div class="login_select">
+                <input type="radio" name="login" id="login01">
+                <label for="login01">윈도우 시작 시 자동실행<br/></label>
+                <input type="radio" name="login" id="login02">
+                <label for="login02">자동로그인<br/></label>
+              </div>
+              <div>
+                <select name="login_mode" id="login_mode">
+                  <option value="">잠금모드</option>
+                </select>
+              </div>
+            </div>
+            <div class="content_02">
+              <div class="content_title">잠금모드</div>
+              <div class="login_select">
+                <input type="radio" name="lock" id="lock">
+                <label for="lock">PC 미사용 시 잠금모드 적용<br/></label>
+              </div>
+              <div>
+                <select name="later" id="later">
+                  <option value="">3분 후</option>
+                </select>
+              </div>
+            </div>
+            <div class="content_03">
+              <div class="content_title">PC 인증 해제</div>
+              <div class="content_text">
+                사용하는 PC가 변경되었거나 도용이 의심되는 경우 PC인증을 
+                해제한 후 다시 인증을 받을 수 있습니다.
+              </div>
+              <button class="content_btn">
+                PC 인증 해제
+              </button>
+            </div>
+            <div class="content_04">
+              <div class="content_title">로그 파일 수집</div>
+              <div class="content_text">
+                카카오톡 사용 중 발생하는 로그 정보를 확인할 수 있습니다.
+                문제 발생시, 카카오톡 고객센터에 로그 파일과 함께 문의해주세요. 
+                카카오로 보내시는 경우, 문제 해결 목적으로만 활용됩니다.
+              </div>
+              <button class="content_btn">
+                수집하기
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>

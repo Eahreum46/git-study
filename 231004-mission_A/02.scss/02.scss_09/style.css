@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+notice-button, .error, .loading, .complete {
+  font-size: 18px;
+  width: 150px;
+  padding: 7px;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.35s;
+}
+notice-button.complete:hover, .complete:hover {
+  background: royalblue;
+  color: #fff;
+  border-color: transparent;
+}
+notice-button.loading:hover, .loading:hover {
+  background: green;
+  color: #fff;
+  border-color: transparent;
+}
+notice-button.error:hover, .error:hover {
+  background: crimson;
+  color: #fff;
+  border-color: transparent;
+}
+
+.complete {
+  border: 3px solid royalblue;
+}
+
+.loading {
+  border: 3px solid green;
+}
+
+.error {
+  border: 3px solid crimson;
+}/*# sourceMappingURL=style.css.map */

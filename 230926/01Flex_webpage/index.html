@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- slick CSS -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    />
+    <!-- Costom CSS -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- slick JS -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- FontAwesome JS -->
+    <script
+      src="https://kit.fontawesome.com/32df6359d1.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- custom js -->
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header class=".active">
+        <div class="banner">
+          <div class="lnb">
+            <a href="#"><em>for</em> Member</a>
+            <a href="#"><em>for</em> Clients</a>
+            <a href="#"><em>for</em> Inquire</a>
+          </div>
+        </div>
+        <nav>
+          <div class="logo">
+            <a href="#"><img src="./img/03/logo.png" alt="logo" /></a>
+          </div>
+          <ul class="gnb">
+            <li><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#ranking">Ranking</a></li>
+            <li><a href="#testmonial">Testmonial</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </nav>
+        <div class="trigger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </header>
+      <main class="intro">
+        <div class="inner">
+          <div class="heading">
+            <h1>The World's Best Cities</h1>
+            <p>
+              It's not just about good weather or great food and night life.
+              Unlike ohter best-of lists, Resonance's annual ranking also
+              considers a city's diversity.
+            </p>
+          </div>
+        </div>
+      </main>
+      <section class="about" id="about">
+        <!-- id="about" 누르면 해당 페이지로 넘어가게 하기 위해서/list a 링크값에 #about -->
+        <div class="inner">
+          <div class="about-content">
+            <div class="desc">
+              <h2>About Best Cities in The World</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                temporibus tenetur nemo quos! Unde quibusdam fuga pariatur ipsum
+                possimus facere eveniet assumenda eaque? Aspernatur
+                exercitationem soluta nostrum molestiae totam corrupti. Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Eum
+                temporibus tenetur nemo quos! Unde quibusdam fuga pariatur ipsum
+                possimus facere eveniet assumenda eaque? Aspernatur
+                exercitationem soluta nostrum molestiae totam corrupti.
+              </p>
+              <a href="#none">Visit the place information</a>
+              <!-- #none 이 값이 정석 -->
+            </div>
+            <div class="photo">
+              <img src="./img/03/about-img-01.jpg" alt="about-img" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ranking" id="ranking">
+        <div class="inner">
+          <div class="ranking-content">
+            <h2>The World's 25 Best Cities of 2023</h2>
+            <div class="items">
+              <div class="item">
+                <div class="up-imge">
+                  <img src="./img/03/best-city-01.jpg" alt="city01" />
+                </div>
+                <div class="down-desc">
+                  <span class="badge must">Must go</span>
+                  <h3>London, England</h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Reiciendis, quaerat odit, cumque velit tempora minima odio
+                    non commodi officia, amet minus id culpa animi at magnam rem
+                    inventore eos sit?
+                  </p>
+                  <a href="#" class="btn-explore">
+                    Explore
+                    <img src="./img/03/icon-arrow.png" alt="arrow" />
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="up-imge">
+                  <img src="./img/03/best-city-02.jpg" alt="city02" />
+                </div>
+                <div class="down-desc">
+                  <span class="badge good">Good to go</span>
+                  <h3>New York City, United States</h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Reiciendis, quaerat odit, cumque velit tempora minima odio
+                    non commodi officia, amet minus id culpa animi at magnam rem
+                    inventore eos sit?
+                  </p>
+                  <a href="#" class="btn-explore">
+                    Explore
+                    <img src="./img/03/icon-arrow.png" alt="arrow" />
+                  </a>
+                </div>
+              </div>
+              <div class="item">
+                <div class="up-imge">
+                  <img src="./img/03/best-city-03.jpg" alt="city03" />
+                </div>
+                <div class="down-desc">
+                  <span class="badge good">Good to go</span>
+                  <h3>Paris, France</h3>
+                  <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Reiciendis, quaerat odit, cumque velit tempora minima odio
+                    non commodi officia, amet minus id culpa animi at magnam rem
+                    inventore eos sit?
+                  </p>
+                  <a href="#" class="btn-explore">
+                    Explore
+                    <img src="./img/03/icon-arrow.png" alt="arrow" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="testimonial" id="testimonial">
+        <div class="inner">
+          <div class="testimonial-content">
+            <h2>what <b>our customers</b> are saying</h2>
+            <hr />
+            <div class="myslider">
+              <div>
+                <p class="client">
+                  <img src="./img/03/client-01.jpg" alt="client01" />
+                  <span><b>IU</b>seoul, korea</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae totam ut nesciunt! Veniam, vitae ut quo eius
+                  repellendus eveniet nisi modi explicabo veritatis neque
+                  doloremque deserunt exercitationem, ratione libero saepe.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="./img/03/client-02.jpg" alt="client02" />
+                  <span><b>Kate Whwitney</b>Los Angeles, US</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae totam ut nesciunt! Veniam, vitae ut quo eius
+                  repellendus eveniet nisi modi explicabo veritatis neque
+                  doloremque deserunt exercitationem, ratione libero saepe.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="./img/03/client-03.jpg" alt="client03" />
+                  <span><b>Kelly Muvils</b>New York, US</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae totam ut nesciunt! Veniam, vitae ut quo eius
+                  repellendus eveniet nisi modi explicabo veritatis neque
+                  doloremque deserunt exercitationem, ratione libero saepe.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="./img/03/client-04.jpg" alt="client04" />
+                  <span><b>Oliver</b>Califonia, US</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae totam ut nesciunt! Veniam, vitae ut quo eius
+                  repellendus eveniet nisi modi explicabo veritatis neque
+                  doloremque deserunt exercitationem, ratione libero saepe.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="./img/03/client-05.jpg" alt="client05" />
+                  <span><b>Sophia</b>London, UK</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae totam ut nesciunt! Veniam, vitae ut quo eius
+                  repellendus eveniet nisi modi explicabo veritatis neque
+                  doloremque deserunt exercitationem, ratione libero saepe.
+                </p>
+              </div>
+              <div>
+                <p class="client">
+                  <img src="./img/03/client-06.jpg" alt="client06" />
+                  <span><b>Charlotte</b>Washington, US</span>
+                </p>
+                <p class="comment">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Repudiandae totam ut nesciunt! Veniam, vitae ut quo eius
+                  repellendus eveniet nisi modi explicabo veritatis neque
+                  doloremque deserunt exercitationem, ratione libero saepe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="callaction">
+        <div class="callaction-heading">
+          <h2>
+            The Most Simple & <b>Powerful way</b><br />to book <b>your trip</b>
+          </h2>
+          <a href="#">GET EARLY ACCESS</a>
+        </div>
+      </section>
+      <section class="blog" id="blog">
+        <div class="inner">
+          <div class="blog-content">
+            <div class="blog-header">
+              <h6>feature article</h6>
+              <h2>Can Americans Visit Mexico Right Now?</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel
+                magni fugiat officia ab non quam nisi deleniti dolore, neque
+                eveniet et tempora vitae eum ad ducimus aut corrupti labore?
+                Molestias. neque eveniet et tempora vitae eum ad ducimus aut
+                corrupti labore. Molestias?
+              </p>
+              <a href="#" class="btn-explore"
+                >Read More <img src="./img/03/icon-arrow.png" alt=""
+              /></a>
+            </div>
+            <hr class="divider" />
+            <div class="post-content">
+              <div class="recent-post-items">
+                <h6>Most Recent</h6>
+                <div class="post-item">
+                  <div class="post-img">
+                    <img src="./img/03/most-recent-01.jpg" alt="recent01" />
+                  </div>
+                  <div class="post-desc">
+                    <h3>world</h3>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Tempore a accusantium saepe ea suscipit minus obcaecati
+                      officiis quidem nisi culpa natus beatae facilis fugit,
+                      similique sunt sapiente omnis, nostrum impedit?
+                      <span>Sept 26, 2023</span>
+                    </p>
+                  </div>
+                </div>
+                <hr class="divider" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="festival">
+        <div class="festival-heading">
+          <h3><span>See all festival</span>for the best trip place</h3>
+          <div class="btns">
+            <a href="#">Mexico festival</a>
+            <a href="#">Barcelona festival</a>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="inner">
+          <div class="footer-content">
+            <ul class="community">
+              <li>community</li>
+              <li><a href="#">구성요소</a></li>
+              <li><a href="#">구성요소</a></li>
+              <li><a href="#">구성요소</a></li>
+              <li><a href="#">구성요소</a></li>
+            </ul>
+            <ul class="network">
+              <li>network</li>
+              <li><a href="#">구성요소</a></li>
+              <li><a href="#">구성요소</a></li>
+              <li><a href="#">구성요소</a></li>
+              <li><a href="#">구성요소</a></li>
+            </ul>
+            <ul class="help">
+              <li>help</li>
+              <li>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt optio delectus illo quis eius laboriosam.
+              </li>
+              <li>카피라이트</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <a href="#" class="gototop"><i class="fas fa-angle-up"></i></a>
+  </body>
+</html>

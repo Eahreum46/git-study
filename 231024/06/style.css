@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#container h1 {
+  margin-bottom: 10px;
+}
+#userInput {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 25px;
+}
+#userInput label {
+  display: inline-block;
+  width: 50px;
+  margin: 10px;
+}
+#userInput input {
+  width: 200px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+#userInput input:focus {
+  outline: none;
+}
+form input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc;
+  text-transform: uppercase;
+}
+th,
+td {
+  padding: 10px;
+}
+th:nth-child(1) {
+  width: 150px;
+}
+th:nth-child(2) {
+  width: 150px;
+}
+td {
+  text-align: center;
+}

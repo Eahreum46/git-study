@@ -1,0 +1,38 @@
+/* grid area */
+
+.container {
+  display: grid;
+  grid-template-rows: 100px 1fr 100px;
+  /* fr = 비율 */
+  grid-template-columns: 300px 1fr 300px;
+  grid-gap: 10px;
+  /* grid-gap 부모요소에 주기 */
+  grid-template-areas:
+    "header header header"
+    "menu main aside"
+    "footer footer footer";
+  height: 100vh;
+}
+.container > div {
+  background: skyblue;
+  padding: 20px;
+  border: 1px solid #000;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+.header {
+  grid-area: header;
+}
+.menu {
+  grid-area: menu;
+}
+.main {
+  grid-area: main;
+}
+.aside {
+  grid-area: aside;
+}
+.footer {
+  grid-area: footer;
+}

@@ -1,0 +1,26 @@
+#wrap
+	.header
+		i.setting
+		span
+		span
+			i.vertical
+			i.exit
+	.logo
+		img
+	.loginbox
+		.input_filed
+			.input[type=text]
+			.input[type=password]
+	.login
+		.input[type=submit]
+	span.input_text
+	.qrlogin
+		input[type=submit]
+	.autologin
+		.input[type=radio]
+		span
+		i.circle
+	.footer
+		span.description
+			span
+			span

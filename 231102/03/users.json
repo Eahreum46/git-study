@@ -1,0 +1,8 @@
+//실습용 json 파일 볼수있는 곳 : https://jsonplaceholder.typicode.com/users
+// =  대량의 작업 편리하게 효율적으로 할 수있고, 너무나 중요!!!
+
+{
+  "name": "홍길동",
+  "major": "컴퓨터 공학",
+  "grade": 2
+}

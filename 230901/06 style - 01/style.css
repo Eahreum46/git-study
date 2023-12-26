@@ -1,0 +1,19 @@
+#box {
+  width: 20px;
+  height: 200px;
+  background-color: red;
+}
+
+#box2 {
+  width: 50vw;
+  height: 30vh;
+  background-color: red;
+}
+
+/*p태그 기본 폰트사이즈 : 16px 1em = 100%/ 2em(2배)=32px
+2rem_현재의 가장 큰 폰트 사이즈의 2배 사이즈로 키워줌.
+
+/* Hex(Hexadecimal : 16진법)코드*/
+/* 0 ~ 9 + a ~ f(15) 
+그래서 컴퓨터가 만들어낼수있는 색조합의 최고 숫자가 16*16_256(0제외)=255개
+/RGB=255.255.255/

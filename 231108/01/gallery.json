@@ -1,0 +1,9 @@
+{
+  "img": [
+    { "path": "./images/1.png", "caption": "Images1" },
+    { "path": "./images/2.png", "caption": "Images2" },
+    { "path": "./images/3.png", "caption": "Images3" },
+    { "path": "./images/4.png", "caption": "Images4" },
+    { "path": "./images/5.png", "caption": "Images5" }
+  ]
+}

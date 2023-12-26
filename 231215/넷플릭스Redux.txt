@@ -1,0 +1,33 @@
+넷플릭스
+
+API_KEY 0694c406aa2947fb492511925eefa84c
+
+설치 프로그램_ 6개
+
+*생성해야하는 페이지
+1)홈페이지
+2)무비페이지
+3)무비디테일페이지
+
+
+/Redux
+
+Props Drilling 단점 보완
+1.Redux
+- Component > Action > useDispatch( ) > Reducer > useSelector( ) > Store
+2.Redux: Syncronous (*동기화 작업)
+3.외부 API Data => Asyncronous (비동기화 작업)
+4.Redux Toolkit (*Redux 외부 플러그인을 더해서 업데이트 )
+5.Redux Saga / Redux Thunk
+-기능적: Saga > Thunk(*난이도/규모가 큰 프로젝트)
+-효율성: Thunk > Saga(*학습량/필수적으로 사용)
+ 
+
+Redux DevTools - Next 확장프로그램 설치
+redux-devtools-extension 검색 => 1.3 Use redux-devtools-extension package from npm 복사
+
+vscode 터미널에서-
+npm install --save redux-devtools-extension --force (*강제설치)
+
+
+Next.js 내년쯤 상용화될듯..

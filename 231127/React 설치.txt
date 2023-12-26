@@ -1,0 +1,21 @@
+React 설치
+*폴더명은 절대로 react 불가!
+*절대 대문자 안됨!
+*한글 안됨
+
+-npx create-react-app .
+-npx create-react-app . --template typescript
+ > js 파일은 그 어디에도 없다!/ 모든 파일은 TS로 바뀜(TS+React 같이 쓰면 강력)
+-npm run start 켜기
+- ctrl + c 끄기
+
+실행창 = public -> index.html
+
+
+*리액트 프로젝트 신규세팅 시, 지워도 되는 것들!
+1) src/App.test.js
+2)    /logo.svg
+3)    /reportWebVitals.js
+4)    /setupTest.js
+
+=> 상기 파일 삭제 후, import&함수 실행문_흔적 지우기/ 주석도

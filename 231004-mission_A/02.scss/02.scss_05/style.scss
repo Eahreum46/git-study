@@ -1,0 +1,11 @@
+.frame {
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  @at-root .heading {
+    font-size: 36px;
+    font-weight: normal;
+    color: crimson;
+  }
+  // @at-root 하위(밖)에 있는 같은 class값도 같이 적용시켜줌/
+}

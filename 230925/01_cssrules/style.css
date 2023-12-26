@@ -1,0 +1,15 @@
+@media screen and (orientation: portrait) and (min-width: 750px) {
+  html {
+    background: #f00;
+    color: #fff;
+    font-weight: bold;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  html {
+    background: #0f0;
+    color: #fff;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,33 @@
+  .table {
+    table-layout: 
+  width: 100%;
+  margin: auto;
+}
+
+.image{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+#iu{
+  width: 500px;
+  height: 500px;
+  object-fit: none;
+  border-radius: 5%;
+}
+
+#ID{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#PW{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.login{
+  font-family: sans-serif; background-color: #fff;
+}
+
+.idpw{
+  font-family: sans-serif; background-color: #fff;
+}

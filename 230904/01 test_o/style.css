@@ -1,0 +1,39 @@
+#container {
+border: 1px; solid #000;
+width: 560px;
+margin: 0 auto
+padding: 20px 40px;
+}
+
+h1{
+
+}
+
+ul,
+li{
+  list-style: none;
+}
+
+li{
+  line-height: ;
+}
+
+#head {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  text text-align: left: ;
+}
+
+#nospace{
+  display: inline-block;
+  width: 200px;
+  margin-left: -25px;
+}
+
+textarea{
+  margin-bottom: 12px;
+}

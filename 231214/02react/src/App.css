@@ -1,0 +1,16 @@
+.App {
+  margin: 50px o;
+}
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.SearchBox {
+  margin-bottom: 15px;
+}
+.ContactItems {
+  margin: 15px 0;
+}
+.ContactItems img {
+  border-radius: 10px;
+}

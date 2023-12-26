@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <link rel="stylesheet" href="./style.css" />
+  <script defer src="./script.js"></script>
+  <body>
+    <div id="container">
+      <h1>Book List</h1>
+      <form id="bookInfo">
+        <ul>
+          <li>
+            <label for="title">제 목</label>
+            <input id="title" type="text" />
+          </li>
+          <li>
+            <label for="author">저 자</label>
+            <input id="author" type="text" />
+          </li>
+        </ul>
+      </form>
+      <div class="boxItem">
+        <input type="reset" value="취소하기" />
+        <input id="save" type="submit" value="저장하기" />
+      </div>
+      <ul id="bookList">
+        <!-- <li>샘플</li> -->
+      </ul>
+    </div>
+  </body>
+</html>

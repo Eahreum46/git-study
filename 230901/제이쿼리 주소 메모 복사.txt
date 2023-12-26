@@ -1,0 +1,7 @@
+https://code.jquery.com/jquery-3.7.1.min.js
+
+https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.js
+
+https://code.jquery.com/jquery-1.12.4.js
+
+https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.css

@@ -1,0 +1,24 @@
+1108 제이쿼리
+
+https://jquery.com/download/ - 접속 - 다운로드 부분
+
+1) 다운로드 :다른이름으로 저장
+
+Download the compressed, production jQuery 3.7.1 - 압축 방식(용량 줄일수있음_작은 연습용 작업물엔 ㅇㅋ)
+
+Download the uncompressed, development jQuery 3.7.1 - 무압축 방식(큰 프로젝트할때 이걸 추천)
+다른이름으로 저장- VS코드에     <script src="../jquery-3.7.1.js"></script> 연결
+
+
+jquery-3.7.1.js / 버전 - 수정 - 사소한 버그/ 얼만큼 안정적인 프로그램인지.
+플러그인마다 요구하는 버전이 다를수있음.
+
+2) 링크 주소 복사
+<script src="../jquery-3.7.1.js"></script>
+
+3) cdn.js 접속
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js 압축버전
+https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.js 무압축버전
+
+현재 버전을 쓰면서 과거 버전도 쓰고 싶을때-
+https://code.jquery.com/jquery-migrate-1.4.1.js

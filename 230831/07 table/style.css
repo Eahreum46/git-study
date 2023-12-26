@@ -1,0 +1,10 @@
+table,
+tr,
+th,
+td {
+  border: 1px solid;
+}
+
+colgroup > col:nth-child(odd) {
+  background-color: #ccc;
+}

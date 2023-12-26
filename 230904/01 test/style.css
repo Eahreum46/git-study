@@ -1,0 +1,14 @@
+ul,
+li{
+  list-style: none;
+}
+
+#head {
+  text-align: center;
+}
+
+#web{
+  list-style: none;
+  display: inline-block;
+  text text-align: left: ;
+}
