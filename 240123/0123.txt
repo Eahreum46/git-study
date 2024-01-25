@@ -1,0 +1,102 @@
+제어판에서 vs code 제거/ 구글에서 vs code 검색 -> 설치
+
+
+
+
+1.자바스크립트 코드 3가지 방법.
+1)인라인
+(스크립트 연결 후)
+<button onclick="alert('알림 메세지가 표시됩니다!')">클릭!</button>
+
+2)내부
+(스크립트 연결 x)
+    <script>
+      function random(number) {
+        return Math.floor(Math.random() * number);
+      }
+      function bgChange() {
+        const rndCol = "rgb(" + random(255) + "," + random(255) + "," + random(255) + ")";
+        document.body.style.backgroundColor = rndCol;
+      }
+      bgChange();
+    </script>
+
+3)외부 *실무
+js 외부파일에 작성 -> 연결(defer)
+
+2.자바스크립트 => 프로그래밍 언어
+-장문으로 이루어져있음
+-단어=> 웹브라우저 화면
+-확인=> console
+/ about:blank / 아무 내용이 없는 새 탭ㄲ
+
+const name = "홍길동"
+document.write("제 친구의 이름은 " + name + "입니다.")
+
+제 친구의 이름은 홍길동입니다.
+
+3. 자바스크립트의 가장 작은 단위 개념 = 변수
+=> 값을 담아놓을 수 있는 최소한의 바구니
+
+//변수는 일종의 바구니의 역할!
+//변수를 만드는 행위 = "선언"
+//변수를 선언할 때에는 반드시 3개의 키워드 중 하나만 선택!
+//var 재선언,재할당 가능 let 재선언 불가,재할당 가능 const 재선언, 재할당 불가능
+
+//variable = 변수 (*실무에서 거의 사용x)
+//const => 재선언, 재할당 불가능(안정적)
+
+4. 자료형 = 자료의 형태(*타입)
+=> 변수에 담길 수 있는 자료의 형태 무엇이 있는가?
+= 숫자형(number)/ 문자열(string)/ 논리형(boolean)/ 객체(object)/ 배열(*객체의 변형된 타입=object)/ 함수(function)
+
+const num03 = 100;
+const str01 = "Lucky";
+const boolean01 = false;
+const obj = {
+  name: "david",
+  age: 20,
+};
+const arr = [1, 2, 3, 4, 5];
+const fnc = function () {
+  console.log("test");
+};
+
+console.log(typeof num03);
+console.log(typeof str01);
+console.log(typeof boolean01);
+console.log(typeof obj);
+console.log(typeof arr);
+console.log(typeof fnc);
+
+ 
+5.템플릿 리터럴 형식
+=> 변수안에 담긴 값을 보다 편리하게 가져올수 있는 형식
+ 
+const name = "홍길동";
+const classroom = 201;
+console.log(name + "님" + classroom + "호 강의실로 입장하세요.");
+
+/*템플릿 리터럴*/
+console.log(`${name}님, ${classroom}호 강의실로 입장하세요.`);
+
+6.논리형=boolean
+// const name = prompt("당신의 이름을 말씀해주세요!");
+const height = prompt("당신의 키를 알려주세요!");
+const weight = prompt("당신의 몸무게를 알려주세요!");
+
+const nomal_w = (height - 100) * 0.9;
+let result = weight >= nomal_w - 5 && weight <= nomal_w + 5;
+// console.log(result);
+result = result ? "적정체중입니다!" : "체중관리 해주세요!";
+document.write(`${name}님은 ${result}`);
+
+why?논리형?
+객체 => 각각의 변수에 담을 수 있는 독립적인 값 여러개를 한 번에 담을 수 있는 공간 = 그룹
+
+
+
+
+
+
+
