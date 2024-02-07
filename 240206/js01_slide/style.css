@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h2 {
+  margin: 20px;
+  font-size: 2rem;
+}
+
+#container {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.arrow {
+  text-align: center;
+  width: 70px;
+  height: 70px;
+  font-size: 2rem;
+  background: #ddd;
+  border-radius: 100%;
+  padding: 10px;
+  z-index: 100;
+  opacity: 0.2;
+  transition: all 0.3s;
+}
+.arrow:hover {
+  opacity: 1;
+  cursor: pointer;
+}

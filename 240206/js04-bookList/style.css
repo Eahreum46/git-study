@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+
+#container {
+  width: 600px;
+  margin: 50px auto;
+  /* border: 1px solid #000; */
+  padding: 10px 20px;
+}
+#bookInfo {
+  margin-top: 40px;
+}
+#bookInfo li {
+  /* font-size: 1rem;
+  line-height: 3; */
+  font: normal 1rem/3 "arial";
+}
+#bookInfo label {
+  display: inline-block;
+  width: 50px;
+}
+#bookInfo input {
+  display: inline-block;
+  width: 450px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+#bookInfo input:focus {
+  outline: none;
+}
+#reset,
+#save {
+  display: inline-block;
+  width: 150px;
+  margin: 20px 55px;
+  padding: 5px 10px;
+}
+#booklist {
+  width: 500px;
+  margin-top: 40px;
+  /* border: 1px solid #f00; */
+  position: relative;
+}
+#booklist li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+#booklist li .delButton {
+  cursor: pointer;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
